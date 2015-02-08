@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class='ie8' lang='pl'> <![endif]-->
+<html lang='pl'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta http-equiv="X-UA-Compatible" content='IE=edge' />
+		<title>Kółko i krzyżyk</title>
+		<meta name='description' content='Kółko i krzyżyk - klasyczna gra strategiczna w przeglądarce' />
+		<meta name='keywords' content='kółko, krzyżyk, gra, przeglądarka, strategia' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<!--[if lt IE 9]>
+		<script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Rajdhani&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='css/normalize.css' rel='stylesheet' />
+		<link href='css/style.css' rel='stylesheet' />
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+		<script src='js/tictactoe.js'></script
+	</head>
+	<body>
+		<section>
+			<h1>Kółko i krzyżyk</h1>
+			<input class='new-game' type='button' value='Nowa gra' />
+			<div class='settings'>Ustawienia</div>
+			<div class='wrapper-1'>
+				<label><input class='first-move-pc' type='radio' name='first-move' value='1' checked="checked" /><span></span> Grę rozpoczyna komputer</label><br />
+				<label><input class='first-move-human' type='radio' name='first-move' value='2'/><span></span> Ja rozpoczynam grę</label><br />
+				<label><input class='cross-mark-human' type='radio' name='mark-type' value='1' checked="checked" /><span></span> Gram krzyżykiem</label><br />
+				<label><input class='circle-mark-human' type='radio' name='mark-type' value='2' /><span></span> Gram kółkiem</label>
+			</div>
+			<div class='wrapper-2'>
+				<p class='results'>Twoje zwycięstwa:<span class='win'></span></p>
+				<p class='results'>Zwycięstwa komputera:<span class='loose'></span></p>
+				<p class='results'><br />Remisy:<span class='draw'></span></p>
+			</div>
+			<div class='wrapper-3'>
+				<div class='container r1c1'></div><div class='container r1c2'></div><div class='container r1c3'></div>
+				<div class='container r2c1'></div><div class='container r2c2'></div><div class='container r2c3'></div>
+				<div class='container r3c1'></div><div class='container r3c2'></div><div class='container r3c3'></div>
+			</div>
+		</section>
+	</body>
+</html>
