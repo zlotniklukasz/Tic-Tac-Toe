@@ -1,1 +1,2 @@
-# Tic-Tac-Toe - classic strategy game
+# Tic-Tac-Toe
+Classic strategy game
