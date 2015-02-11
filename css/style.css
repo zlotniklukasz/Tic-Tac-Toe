@@ -11,6 +11,10 @@ body {
 }
 
 * {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -52,7 +56,15 @@ h1 {
 .wrapper-1 {
 	background: #F1E767;
 	border: solid 1px #FEB645;
+	-moz-border-radius: .3em;
+	-ms-border-radius: .3em;
+	-o-border-radius: .3em;
+	-webkit-border-radius: .3em;
 	border-radius: .3em;
+	-moz-box-shadow: inset 0 0 1px #FFF, 1px 1px 4px #F1E767, -1px -1px 4px #F1E767;
+	-ms-box-shadow: inset 0 0 1px #FFF, 1px 1px 4px #F1E767, -1px -1px 4px #F1E767;
+	-o-box-shadow: inset 0 0 1px #FFF, 1px 1px 4px #F1E767, -1px -1px 4px #F1E767;
+	-webkit-box-shadow: inset 0 0 1px #FFF, 1px 1px 4px #F1E767, -1px -1px 4px #F1E767;
 	box-shadow: inset 0 0 1px #FFF, 1px 1px 4px #F1E767, -1px -1px 4px #F1E767;
 	font-size: 1em;
 	margin: 0 auto;
@@ -154,13 +166,17 @@ label {
 	background: linear-gradient(to bottom, #FFD65E 0%,#FEBF04 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD65E', endColorstr='#FEBF04',GradientType=0 );
 
-	border: solid 1px rgb(61,69,67); /* Fallback for older IE*/ 
+	border: solid 1px rgb(61,69,67); /* fallback */ 
 	border: solid 1px rgba(61,69,67,.5);
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px rgba(255,255,255,.6), 0 1px 5px rgba(255,255,255,.5);
+	-ms-box-shadow: inset 0 1px rgba(255,255,255,.6), 0 1px 5px rgba(255,255,255,.5);
+	-o-box-shadow: inset 0 1px rgba(255,255,255,.6), 0 1px 5px rgba(255,255,255,.5);
+	-webkit-box-shadow: inset 0 1px rgba(255,255,255,.6), 0 1px 5px rgba(255,255,255,.5);
 	box-shadow: inset 0 1px rgba(255,255,255,.6), 0 1px 5px rgba(255,255,255,.5);
 	color: #3d4543;
 	display: block;
@@ -175,6 +191,10 @@ label {
 }
 
 .new-game:hover {
+	-moz-box-shadow: inset 0 1em 1em rgba(255,255,255,.4);
+	-ms-box-shadow: inset 0 1em 1em rgba(255,255,255,.4);
+	-o-box-shadow: inset 0 1em 1em rgba(255,255,255,.4);
+	-webkit-box-shadow: inset 0 1em 1em rgba(255,255,255,.4);
 	box-shadow: inset 0 1em 1em rgba(255,255,255,.4);
 }
 
