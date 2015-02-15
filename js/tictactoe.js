@@ -286,7 +286,7 @@ $(document).ready(function() {
 		function finishGame(winner) { // when it's not possible to perform another movement, finish the game
 
 			switch (winner) { // refresh counters
-				case 0: $(".draw").text(Number($(".tie").text()) + 1); // draw
+				case 0: $(".draw").text(Number($(".draw").text()) + 1); // draw
 				break;
 				case 1: $(".win").text(Number($(".win").text()) + 1); // human won
 				break;
